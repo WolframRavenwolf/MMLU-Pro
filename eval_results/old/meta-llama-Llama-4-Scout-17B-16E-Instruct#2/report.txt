@@ -1,0 +1,38 @@
+2025-04-08 23:12:30.459888
+{
+	"comment": "meta-llama/Llama-4-Scout-17B-16E-Instruct @ Together AI",
+	"server": {
+		"url": "https://api.together.ai/v1",
+		"model": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+		"timeout": 600.0
+	},
+	"inference": {
+		"temperature": 0.0,
+		"top_p": 1.0,
+		"max_tokens": 8192,
+		"system_prompt": "The following are multiple choice questions (with answers) about {subject}. Think step by step and then finish your answer with \"the answer is (X)\" where X is the correct letter choice.",
+		"style": "multi_chat"
+	},
+	"test": {
+		"subset": 1.0,
+		"parallel": 1
+	},
+	"log": {
+		"verbosity": 0,
+		"log_prompt": true
+	}
+}
+Finished testing computer science in 29 minutes 9 seconds.
+Total, 268/410, 65.37%
+Random Guess Attempts, 1/410, 0.24%
+Correct Random Guesses, 0/1, 0.00%
+Adjusted Score Without Random Guesses, 268/409, 65.53%
+Finished the benchmark in 29 minutes 13 seconds.
+Total, 268/410, 65.37%
+Token Usage:
+Prompt tokens: min 1413, average 1555, max 2503, total 637504, tk/s 363.61
+Completion tokens: min 35, average 389, max 8192, total 159423, tk/s 90.93
+Markdown Table:
+| overall | computer science |
+| ------- | ---------------- |
+| 65.37 | 65.37 |

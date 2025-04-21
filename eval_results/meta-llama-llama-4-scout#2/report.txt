@@ -1,0 +1,38 @@
+2025-04-09 14:28:27.148002
+{
+	"comment": "meta-llama/llama-4-scout @ OpenRouter",
+	"server": {
+		"url": "https://openrouter.ai/api/v1",
+		"model": "meta-llama/llama-4-scout",
+		"timeout": 600.0
+	},
+	"inference": {
+		"temperature": 0.0,
+		"top_p": 1.0,
+		"max_tokens": 8192,
+		"system_prompt": "The following are multiple choice questions (with answers) about {subject}. Think step by step and then finish your answer with \"the answer is (X)\" where X is the correct letter choice.",
+		"style": "multi_chat"
+	},
+	"test": {
+		"subset": 1.0,
+		"parallel": 1
+	},
+	"log": {
+		"verbosity": 0,
+		"log_prompt": true
+	}
+}
+Finished testing computer science in 41 minutes 37 seconds.
+Total, 275/410, 67.07%
+Random Guess Attempts, 0/410, 0.00%
+Correct Random Guesses, division by zero error
+Adjusted Score Without Random Guesses, 275/410, 67.07%
+Finished the benchmark in 41 minutes 40 seconds.
+Total, 275/410, 67.07%
+Token Usage:
+Prompt tokens: min 1378, average 1542, max 2503, total 632026, tk/s 252.72
+Completion tokens: min 31, average 442, max 8192, total 181141, tk/s 72.43
+Markdown Table:
+| overall | computer science |
+| ------- | ---------------- |
+| 67.07 | 67.07 |

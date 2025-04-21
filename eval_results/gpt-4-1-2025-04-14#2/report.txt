@@ -1,0 +1,38 @@
+2025-04-14 21:07:46.179870
+{
+	"comment": "gpt-4.1-2025-04-14 @ OpenAI",
+	"server": {
+		"url": "https://api.openai.com/v1",
+		"model": "gpt-4.1-2025-04-14",
+		"timeout": 600.0
+	},
+	"inference": {
+		"temperature": 0.0,
+		"top_p": 1.0,
+		"max_tokens": 8192,
+		"system_prompt": "The following are multiple choice questions (with answers) about {subject}. Think step by step and then finish your answer with \"the answer is (X)\" where X is the correct letter choice.",
+		"style": "multi_chat"
+	},
+	"test": {
+		"subset": 1.0,
+		"parallel": 1
+	},
+	"log": {
+		"verbosity": 2,
+		"log_prompt": true
+	}
+}
+Finished testing computer science in 26 minutes 36 seconds.
+Total, 342/410, 83.41%
+Random Guess Attempts, 0/410, 0.00%
+Correct Random Guesses, division by zero error
+Adjusted Score Without Random Guesses, 342/410, 83.41%
+Finished the benchmark in 26 minutes 40 seconds.
+Total, 342/410, 83.41%
+Token Usage:
+Prompt tokens: min 1396, average 1540, max 2486, total 631448, tk/s 394.63
+Completion tokens: min 52, average 260, max 2213, total 106505, tk/s 66.56
+Markdown Table:
+| overall | computer science |
+| ------- | ---------------- |
+| 83.41 | 83.41 |

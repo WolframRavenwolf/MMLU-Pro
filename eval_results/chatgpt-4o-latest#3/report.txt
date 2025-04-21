@@ -1,0 +1,38 @@
+2025-04-15 11:44:05.613193
+{
+	"comment": "chatgpt-4o-latest @ 2025-04-15",
+	"server": {
+		"url": "https://api.openai.com/v1",
+		"model": "chatgpt-4o-latest",
+		"timeout": 600.0
+	},
+	"inference": {
+		"temperature": 0.0,
+		"top_p": 1.0,
+		"max_tokens": 8192,
+		"system_prompt": "The following are multiple choice questions (with answers) about {subject}. Think step by step and then finish your answer with \"the answer is (X)\" where X is the correct letter choice.",
+		"style": "multi_chat"
+	},
+	"test": {
+		"subset": 1.0,
+		"parallel": 1
+	},
+	"log": {
+		"verbosity": 2,
+		"log_prompt": true
+	}
+}
+Finished testing computer science in 33 minutes 46 seconds.
+Total, 337/410, 82.20%
+Random Guess Attempts, 1/410, 0.24%
+Correct Random Guesses, 1/1, 100.00%
+Adjusted Score Without Random Guesses, 336/409, 82.15%
+Finished the benchmark in 34 minutes 4 seconds.
+Total, 337/410, 82.20%
+Token Usage:
+Prompt tokens: min 1396, average 1540, max 2486, total 631448, tk/s 308.85
+Completion tokens: min 103, average 460, max 8192, total 188473, tk/s 92.19
+Markdown Table:
+| overall | computer science |
+| ------- | ---------------- |
+| 82.20 | 82.20 |

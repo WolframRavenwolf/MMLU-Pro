@@ -1,0 +1,41 @@
+2025-04-16 22:55:44.799726
+{
+	"comment": "o3-2025-04-16 @ OpenAI",
+	"server": {
+		"url": "https://api.openai.com/v1",
+		"model": "o3-2025-04-16",
+		"timeout": 600.0
+	},
+	"inference": {
+		"temperature": 1,
+		"top_p": 1.0,
+		"max_completion_tokens": 8192,
+		"system_prompt": "The following are multiple choice questions (with answers) about {subject}. Think step by step and then finish your answer with \"the answer is (X)\" where X is the correct letter choice.",
+		"style": "multi_chat"
+	},
+	"test": {
+		"subset": 1.0,
+		"parallel": 1
+	},
+	"log": {
+		"verbosity": 2,
+		"log_prompt": true
+	}
+}
+Finished testing computer science in 1 hours 23 minutes 46 seconds.
+Total, 356/410, 86.83%
+Random Guess Attempts, 5/410, 1.22%
+Correct Random Guesses, 1/5, 20.00%
+Adjusted Score Without Random Guesses, 355/405, 87.65%
+Finished the benchmark in 1 hours 23 minutes 49 seconds.
+Total, 356/410, 86.83%
+Random Guess Attempts, 5/410, 1.22%
+Correct Random Guesses, 1/5, 20.00%
+Adjusted Score Without Random Guesses, 355/405, 87.65%
+Token Usage:
+Prompt tokens: min 1405, average 1549, max 2495, total 635138, tk/s 126.27
+Completion tokens: min 50, average 891, max 8192, total 365512, tk/s 72.67
+Markdown Table:
+| overall | computer science |
+| ------- | ---------------- |
+| 86.83 | 86.83 |
