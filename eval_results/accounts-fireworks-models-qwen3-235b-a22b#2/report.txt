@@ -1,0 +1,38 @@
+2025-05-04 18:38:11.960858
+{
+	"comment": "accounts/fireworks/models/qwen3-235b-a22b @ Fireworks",
+	"server": {
+		"url": "https://api.fireworks.ai/inference/v1",
+		"model": "accounts/fireworks/models/qwen3-235b-a22b",
+		"timeout": 1000.0
+	},
+	"inference": {
+		"temperature": 0.6,
+		"top_p": 0.95,
+		"max_tokens": 32768,
+		"system_prompt": "The following are multiple choice questions (with answers) about {subject}. Think step by step and then finish your answer with \"the answer is (X)\" where X is the correct letter choice.",
+		"style": "multi_chat"
+	},
+	"test": {
+		"subset": 1.0,
+		"parallel": 1
+	},
+	"log": {
+		"verbosity": 0,
+		"log_prompt": true
+	}
+}
+Finished testing computer science in 4 hours 2 minutes 34 seconds.
+Total, 346/410, 84.39%
+Random Guess Attempts, 0/410, 0.00%
+Correct Random Guesses, division by zero error
+Adjusted Score Without Random Guesses, 346/410, 84.39%
+Finished the benchmark in 4 hours 2 minutes 37 seconds.
+Total, 346/410, 84.39%
+Token Usage:
+Prompt tokens: min 1448, average 1601, max 2897, total 656306, tk/s 45.08
+Completion tokens: min 175, average 1999, max 17208, total 819416, tk/s 56.29
+Markdown Table:
+| overall | computer science |
+| ------- | ---------------- |
+| 84.39 | 84.39 |
