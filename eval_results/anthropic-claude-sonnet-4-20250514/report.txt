@@ -1,0 +1,38 @@
+2025-05-22 20:55:48.235318
+{
+	"comment": "anthropic/claude-sonnet-4-20250514 @ LM Studio",
+	"server": {
+		"url": "http://192.168.1.5:4000",
+		"model": "anthropic/claude-sonnet-4-20250514",
+		"timeout": 600.0
+	},
+	"inference": {
+		"temperature": 0.0,
+		"top_p": 1.0,
+		"max_tokens": 2048,
+		"system_prompt": "The following are multiple choice questions (with answers) about {subject}. Think step by step and then finish your answer with \"the answer is (X)\" where X is the correct letter choice.",
+		"style": "multi_chat"
+	},
+	"test": {
+		"subset": 1.0,
+		"parallel": 1
+	},
+	"log": {
+		"verbosity": 0,
+		"log_prompt": true
+	}
+}
+Finished testing computer science in 40 minutes 48 seconds.
+Total, 358/410, 87.32%
+Random Guess Attempts, 0/410, 0.00%
+Correct Random Guesses, division by zero error
+Adjusted Score Without Random Guesses, 358/410, 87.32%
+Finished the benchmark in 40 minutes 52 seconds.
+Total, 358/410, 87.32%
+Token Usage:
+Prompt tokens: min 1533, average 1694, max 2627, total 694458, tk/s 283.16
+Completion tokens: min 68, average 313, max 1157, total 128352, tk/s 52.33
+Markdown Table:
+| overall | computer science |
+| ------- | ---------------- |
+| 87.32 | 87.32 |
