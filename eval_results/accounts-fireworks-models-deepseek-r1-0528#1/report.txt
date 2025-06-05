@@ -1,0 +1,38 @@
+2025-05-29 11:53:35.830397
+{
+	"comment": "deepseek-r1-0528 @ Fireworks API",
+	"server": {
+		"url": "https://api.fireworks.ai/inference/v1",
+		"model": "accounts/fireworks/models/deepseek-r1-0528",
+		"timeout": 900.0
+	},
+	"inference": {
+		"temperature": 0.6,
+		"top_p": 0.95,
+		"max_tokens": 20480,
+		"system_prompt": "The following are multiple choice questions (with answers) about {subject}. Think step by step and then finish your answer with \"the answer is (X)\" where X is the correct letter choice.",
+		"style": "multi_chat"
+	},
+	"test": {
+		"subset": 1.0,
+		"parallel": 1
+	},
+	"log": {
+		"verbosity": 0,
+		"log_prompt": true
+	}
+}
+Finished testing computer science in 4 hours 15 minutes 53 seconds.
+Total, 347/410, 84.63%
+Random Guess Attempts, 0/410, 0.00%
+Correct Random Guesses, division by zero error
+Adjusted Score Without Random Guesses, 347/410, 84.63%
+Finished the benchmark in 4 hours 15 minutes 55 seconds.
+Total, 347/410, 84.63%
+Token Usage:
+Prompt tokens: min 1387, average 1532, max 2477, total 628029, tk/s 40.90
+Completion tokens: min 198, average 2977, max 20480, total 1220720, tk/s 79.50
+Markdown Table:
+| overall | computer science |
+| ------- | ---------------- |
+| 84.63 | 84.63 |
