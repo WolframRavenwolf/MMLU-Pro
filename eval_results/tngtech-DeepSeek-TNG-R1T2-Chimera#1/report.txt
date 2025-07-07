@@ -1,0 +1,38 @@
+2025-07-03 15:48:52.080039
+{
+	"comment": "tngtech/DeepSeek-TNG-R1T2-Chimera @ TNG",
+	"server": {
+		"url": "https://chat.model.tngtech.com/v1",
+		"model": "tngtech/DeepSeek-TNG-R1T2-Chimera",
+		"timeout": 900.0
+	},
+	"inference": {
+		"temperature": 0.6,
+		"top_p": 1.0,
+		"max_tokens": 16384,
+		"system_prompt": "The following are multiple choice questions (with answers) about {subject}. Think step by step and then finish your answer with \"the answer is (X)\" where X is the correct letter choice.",
+		"style": "multi_chat"
+	},
+	"test": {
+		"subset": 1.0,
+		"parallel": 1
+	},
+	"log": {
+		"verbosity": 0,
+		"log_prompt": true
+	}
+}
+Finished testing computer science in 4 hours 48 seconds.
+Total, 346/410, 84.39%
+Random Guess Attempts, 0/410, 0.00%
+Correct Random Guesses, division by zero error
+Adjusted Score Without Random Guesses, 346/410, 84.39%
+Finished the benchmark in 4 hours 51 seconds.
+Total, 346/410, 84.39%
+Token Usage:
+Prompt tokens: min 1394, average 1539, max 2484, total 630899, tk/s 43.66
+Completion tokens: min 30, average 962, max 7580, total 394360, tk/s 27.29
+Markdown Table:
+| overall | computer science |
+| ------- | ---------------- |
+| 84.39 | 84.39 |

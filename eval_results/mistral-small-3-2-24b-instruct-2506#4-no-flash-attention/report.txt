@@ -1,0 +1,38 @@
+2025-06-24 14:41:20.265302
+{
+	"comment": "mistral-small-3.2-24b-instruct-2506 @ LM Studio",
+	"server": {
+		"url": "http://localhost:1234/v1",
+		"model": "mistral-small-3.2-24b-instruct-2506",
+		"timeout": 900.0
+	},
+	"inference": {
+		"temperature": 0.15,
+		"top_p": 1,
+		"max_tokens": 16384,
+		"system_prompt": "The following are multiple choice questions (with answers) about {subject}. Think step by step and then finish your answer with \"the answer is (X)\" where X is the correct letter choice.",
+		"style": "multi_chat"
+	},
+	"test": {
+		"subset": 1.0,
+		"parallel": 1
+	},
+	"log": {
+		"verbosity": 0,
+		"log_prompt": true
+	}
+}
+Finished testing computer science in 4 hours 10 minutes 58 seconds.
+Total, 277/410, 67.56%
+Random Guess Attempts, 0/410, 0.00%
+Correct Random Guesses, division by zero error
+Adjusted Score Without Random Guesses, 277/410, 67.56%
+Finished the benchmark in 4 hours 11 minutes 1 seconds.
+Total, 277/410, 67.56%
+Token Usage:
+Prompt tokens: min 1426, average 1580, max 2875, total 647752, tk/s 43.01
+Completion tokens: min 27, average 133, max 1053, total 54535, tk/s 3.62
+Markdown Table:
+| overall | computer science |
+| ------- | ---------------- |
+| 67.56 | 67.56 |
