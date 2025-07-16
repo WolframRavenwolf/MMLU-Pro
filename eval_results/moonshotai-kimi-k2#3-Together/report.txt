@@ -1,0 +1,38 @@
+2025-07-15 08:01:52.722786
+{
+	"comment": "moonshotai/kimi-k2 @ OpenRouter (Together)",
+	"server": {
+		"url": "https://openrouter.ai/api/v1",
+		"model": "moonshotai/kimi-k2",
+		"timeout": 600.0
+	},
+	"inference": {
+		"temperature": 0.6,
+		"top_p": 1.0,
+		"max_tokens": 65536,
+		"system_prompt": "The following are multiple choice questions (with answers) about {subject}. Think step by step and then finish your answer with \"the answer is (X)\" where X is the correct letter choice.",
+		"style": "multi_chat"
+	},
+	"test": {
+		"subset": 1.0,
+		"parallel": 1
+	},
+	"log": {
+		"verbosity": 0,
+		"log_prompt": true
+	}
+}
+Finished testing computer science in 2 hours 31 minutes 23 seconds.
+Total, 342/410, 83.41%
+Random Guess Attempts, 3/410, 0.73%
+Correct Random Guesses, 0/3, 0.00%
+Adjusted Score Without Random Guesses, 342/407, 84.03%
+Finished the benchmark in 2 hours 31 minutes 27 seconds.
+Total, 342/410, 83.41%
+Token Usage:
+Prompt tokens: min 1399, average 1542, max 2489, total 632223, tk/s 69.57
+Completion tokens: min 39, average 460, max 5992, total 188801, tk/s 20.78
+Markdown Table:
+| overall | computer science |
+| ------- | ---------------- |
+| 83.41 | 83.41 |
