@@ -1,0 +1,41 @@
+2025-07-31 11:26:04.487732
+{
+	"comment": "Qwen/Qwen3-Coder-480B-A35B-Instruct @ W&B",
+	"server": {
+		"url": "https://api.inference.wandb.ai/v1",
+		"model": "Qwen/Qwen3-Coder-480B-A35B-Instruct",
+		"timeout": 1000.0,
+		"project": "wolfram-ravenwolf-ai/kimi-k2"
+	},
+	"inference": {
+		"temperature": 0.7,
+		"top_p": 0.8,
+		"max_tokens": 65536,
+		"frequency_penalty": 0,
+		"presence_penalty": 0,
+		"system_prompt": "The following are multiple choice questions (with answers) about {subject}. Think step by step and then finish your answer with \"the answer is (X)\" where X is the correct letter choice.",
+		"style": "multi_chat"
+	},
+	"test": {
+		"subset": 1.0,
+		"parallel": 1
+	},
+	"log": {
+		"verbosity": 0,
+		"log_prompt": true
+	}
+}
+Finished testing computer science in 1 hours 25 minutes 27 seconds.
+Total, 342/410, 83.41%
+Random Guess Attempts, 0/410, 0.00%
+Correct Random Guesses, division by zero error
+Adjusted Score Without Random Guesses, 342/410, 83.41%
+Finished the benchmark in 1 hours 25 minutes 31 seconds.
+Total, 342/410, 83.41%
+Token Usage:
+Prompt tokens: min 1448, average 1601, max 2897, total 656306, tk/s 127.91
+Completion tokens: min 54, average 316, max 2638, total 129408, tk/s 25.22
+Markdown Table:
+| overall | computer science |
+| ------- | ---------------- |
+| 83.41 | 83.41 |
