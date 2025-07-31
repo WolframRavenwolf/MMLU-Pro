@@ -1,0 +1,41 @@
+2025-07-29 10:52:38.053191
+{
+	"comment": "qwen/qwen3-235b-a22b-thinking-2507 @ OpenRouter",
+	"server": {
+		"url": "https://openrouter.ai/api/v1",
+		"model": "qwen/qwen3-235b-a22b-thinking-2507",
+		"timeout": 900.0
+	},
+	"inference": {
+		"temperature": 0.6,
+		"top_p": 0.95,
+		"max_tokens": 81920,
+		"system_prompt": "The following are multiple choice questions (with answers) about {subject}. Think step by step and then finish your answer with \"the answer is (X)\" where X is the correct letter choice.",
+		"style": "multi_chat"
+	},
+	"test": {
+		"subset": 1.0,
+		"parallel": 1
+	},
+	"log": {
+		"verbosity": 0,
+		"log_prompt": true
+	}
+}
+Finished testing computer science in 12 hours 21 minutes 1 seconds.
+Total, 356/410, 86.83%
+Random Guess Attempts, 8/410, 1.95%
+Correct Random Guesses, 1/8, 12.50%
+Adjusted Score Without Random Guesses, 355/402, 88.31%
+Finished the benchmark in 12 hours 21 minutes 3 seconds.
+Total, 356/410, 86.83%
+Random Guess Attempts, 8/410, 1.95%
+Correct Random Guesses, 1/8, 12.50%
+Adjusted Score Without Random Guesses, 355/402, 88.31%
+Token Usage:
+Prompt tokens: min 1449, average 1601, max 2898, total 653386, tk/s 14.69
+Completion tokens: min 68, average 3554, max 18860, total 1449862, tk/s 32.61
+Markdown Table:
+| overall | computer science |
+| ------- | ---------------- |
+| 86.83 | 86.83 |

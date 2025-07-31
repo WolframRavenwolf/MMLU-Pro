@@ -1,0 +1,41 @@
+2025-07-30 08:13:41.124403
+{
+	"comment": "Qwen/Qwen3-235B-A22B-Thinking-2507 @ W&B",
+	"server": {
+		"url": "https://api.inference.wandb.ai/v1",
+		"model": "Qwen/Qwen3-235B-A22B-Thinking-2507",
+		"timeout": 900.0,
+		"project": "wolfram-ravenwolf-ai/kimi-k2"
+	},
+	"inference": {
+		"frequency_penalty": 0,
+		"max_tokens": 81920,
+		"presence_penalty": 0,
+		"temperature": 0.6,
+		"top_p": 0.95,
+		"system_prompt": "The following are multiple choice questions (with answers) about {subject}. Think step by step and then finish your answer with \"the answer is (X)\" where X is the correct letter choice.",
+		"style": "multi_chat"
+	},
+	"test": {
+		"subset": 1.0,
+		"parallel": 1
+	},
+	"log": {
+		"verbosity": 0,
+		"log_prompt": true
+	}
+}
+Finished testing computer science in 6 hours 1 minutes 35 seconds.
+Total, 361/410, 88.05%
+Random Guess Attempts, 3/410, 0.73%
+Correct Random Guesses, 0/3, 0.00%
+Adjusted Score Without Random Guesses, 361/407, 88.70%
+Finished the benchmark in 6 hours 1 minutes 38 seconds.
+Total, 361/410, 88.05%
+Token Usage:
+Prompt tokens: min 1450, average 1603, max 2899, total 657126, tk/s 30.28
+Completion tokens: min 70, average 4073, max 44479, total 1670075, tk/s 76.97
+Markdown Table:
+| overall | computer science |
+| ------- | ---------------- |
+| 88.05 | 88.05 |

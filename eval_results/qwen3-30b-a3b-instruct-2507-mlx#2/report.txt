@@ -1,0 +1,38 @@
+2025-07-30 17:16:14.685723
+{
+        "comment": "qwen3-30b-a3b-instruct-2507-mlx @ LM Studio",
+        "server": {
+                "url": "http://127.0.0.1:1234/v1",
+                "model": "qwen3-30b-a3b-instruct-2507-mlx",
+                "timeout": 1000.0
+        },
+        "inference": {
+                "temperature": 0.7,
+                "top_p": 0.8,
+                "max_tokens": 16384,
+                "system_prompt": "The following are multiple choice questions (with answers) about {subject}. Think step by step and then finish your answer with \"the answer is (X)\" where X is the correct letter choice.",
+                "style": "multi_chat"
+        },
+        "test": {
+                "subset": 1.0,
+                "parallel": 1
+        },
+        "log": {
+                "verbosity": 0,
+                "log_prompt": true
+        }
+}
+Finished testing computer science in 2 hours 8 minutes 35 seconds.
+Total, 341/410, 83.17%
+Random Guess Attempts, 0/410, 0.00%
+Correct Random Guesses, division by zero error
+Adjusted Score Without Random Guesses, 341/410, 83.17%
+Finished the benchmark in 2 hours 8 minutes 38 seconds.
+Total, 341/410, 83.17%
+Token Usage:
+Prompt tokens: min 1448, average 1601, max 2897, total 656306, tk/s 85.03
+Completion tokens: min 63, average 1173, max 16383, total 480938, tk/s 62.31
+Markdown Table:
+| overall | computer science |
+| ------- | ---------------- |
+| 83.17 | 83.17 |
