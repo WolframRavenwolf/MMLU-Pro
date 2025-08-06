@@ -1,0 +1,16 @@
+{
+	"computer science": {
+		"corr": 348.0,
+		"wrong": 62.0,
+		"acc": 0.848780487804878
+	},
+	"random": {
+		"corr": 2.0,
+		"wrong": 0.0
+	},
+	"total": {
+		"corr": 348.0,
+		"wrong": 62.0,
+		"acc": 0.848780487804878
+	}
+}
